@@ -1,0 +1,154 @@
+.body {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    list-style: none;
+
+    margin: 0;
+    padding:0;
+}
+
+.jumbotron
+{
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+
+#Strip{
+    width: 100%;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    background-color:black;
+}
+.Text{
+    float:left;
+    color: white;
+}
+.Top-Row ul li{
+    width: 100px;
+    float: right;
+    list-style: none;
+    margin-top:10px ;
+
+
+}
+.logo{
+    border-bottom-width: medium;
+}
+
+.menuclr ul li{
+    float:right;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    list-style: none;
+}
+
+.menuclr ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+}
+
+.Number{
+    display :inline;
+    color: darkorange;
+}
+
+.Hi{
+    color:white;
+    font-family:"Segoe UI Light";
+    font-size:60px;
+
+    text-align: center;
+    margin:50px;
+
+}
+
+
+
+
+.parallax {
+
+    height:1000px;
+    background-color:black;
+    font-size:36px;
+
+}
+.form-group{
+    color:white;
+}
+
+.links
+{
+    display: inline-block;
+    padding-left:700px;
+    color:white;
+}
+
+.p{
+    margin-top:1000px;
+}
+
+.Banner{
+    color:white;
+    font-family:"Segoe UI Light";
+    font-size:60px;
+
+    text-align: center;
+    margin-top:100px;
+
+}
+
+
+header,
+footer{
+    background: url(../images/bg.jpg) no-repeat;
+    font-family: Georgia, serif;
+    color: #fff;
+}
+header.jumbotron,
+footer.jumbotron{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 0px;
+    font-size: 15px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: transparent;}
